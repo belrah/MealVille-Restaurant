@@ -26,7 +26,8 @@ This online restaurant management website can be used by the employees in a rest
 
 ---
 
-## Technologies to be Used: Meal Ville Restaurant be developed using:
+## Technologies to be Used: 
+MealVille Restaurant will be developed using:
 1. PHP
 2. JavaScript
 3. CSS (Bootstrap)
