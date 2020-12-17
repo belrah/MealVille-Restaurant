@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.serve {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*----------nav-bar starts here----------*/
+
+nav {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+li:hover {
+    background-color: #990011FF;
+}
+
+.hover:hover {
+    color: white!important;
+}
+
+
+/*----------navbar ends here----------*/
+
+
+/*----------hero starts here----------*/
+
+
+/*----------hero end here----------*/
+
+
+/*----------menu starts here----------*/
+
+
+/*----------menu ends here----------*/
+
+
+/*----------services starts here----------*/
+
+
+/*----------services ends here----------*/
+
+
+/*----------team starts here----------*/
+
+
+/*----------team ends here----------*/
+
+
+/*----------contacts starts here----------*/
+
+
+/*----------contacts ends here----------*/
+
+@media screen and (max-width: 670px) {
+    .hero {
+        min-height: 280px;
+    }
+    .btn1 {
+        top: 50px;
+    }
+    .hero-text {
+        font-size: 30px;
+    }
+    .hero-text2 {
+        font-size: 50px;
+    }
+}
