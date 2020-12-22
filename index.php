@@ -19,7 +19,7 @@ require "header.php";
 <section id="aboutus">
 
  <div class="container">
-   <h3 class="text-center"><br>MealVille</h3>
+   <h3 class="text-center"><br><br>MealVille</h3>
    <div class="row">
 <!--carousel-->
      <div class="col-sm"><br><br>
