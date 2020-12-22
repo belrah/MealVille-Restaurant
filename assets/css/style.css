@@ -1,92 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*
+{
+	margin:0;
+	padding:0;
+        font-family: "Times New Roman", Times, serif;
 }
 
-body {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*body*/
+body
+{
+	overflow-y: scroll;
+	overflow-x: hidden;
+        
 }
 
-h2 {
-    font-weight: bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h3{
+    text-shadow: 2px 1px grey;
 }
 
-h4 {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*headers*/
+.header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/1.jpg);
+	height:80vh;
+	background-position:center;
+	background-size:cover;
 }
 
-.serve {
-    font-size: 34px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-/*----------nav-bar starts here----------*/
-
-nav {
-    font-weight: bold;
-    font-size: 35px;
-}
-
-li:hover {
-    background-color: #990011FF;
-}
-
-.hover:hover {
-    color: white!important;
+.header2
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/6.jpeg);
+	height:40vh;
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
 }
 
 
-/*----------navbar ends here----------*/
-
-
-/*----------hero starts here----------*/
-
-
-/*----------hero end here----------*/
-
-
-/*----------menu starts here----------*/
-
-
-/*----------menu ends here----------*/
-
-
-/*----------services starts here----------*/
-
-
-/*----------services ends here----------*/
-
-
-/*----------team starts here----------*/
-
-
-/*----------team ends here----------*/
-
-
-/*----------contacts starts here----------*/
-
-
-/*----------contacts ends here----------*/
-
-@media screen and (max-width: 670px) {
-    .hero {
-        min-height: 280px;
-    }
-    .btn1 {
-        top: 50px;
-    }
-    .hero-text {
-        font-size: 30px;
-    }
-    .hero-text2 {
-        font-size: 50px;
-    }
+/*navbar*/
+.navbar{
+	background-color:white;
 }
+
+.navbar-brand {
+font-family: "Brush Script MT", "Brush Script Std", cursive;
+}
+
+.navbar .navbar-nav .active{
+	border-bottom:1px solid  white;
+}
+
+.navbar .navbar-nav .nav-item a{
+	color:#3A3B3B;
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+	background-color: #d1c8c8;
+	color:black;
+}
+
+
+.header-button .btn{
+    
+margin-top:40vh;
+}
+
+
+.row {
+  margin: 15px;
+}
+
+.nav-link {
+	cursor:pointer;
+}
+
+/*footer*/
+.footer{
+padding-top:30px;
+padding-bottom:30px;
+color:black;
+}
+
+.social-icon a{
+	margin:0 16px 20px 16px;
+	display:inline-block;
+}
+
+.social-icon .fa{
+
+	color:black;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background:lightgray;
+	line-height: 2;
+	transition: .3s;
+	border:10px solid lightgray;
+}
+
+.social-icon a:hover .fa{
+	border:10px solid black;
+}
+
+.bordernow{
+	width:80px;
+	border-bottom:2px solid white;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+.form1 {
+	width: 100%;
+	height: 400px;
+	background: #fff;
+	padding: 25px;
+	border: 1px solid #ccc;
+	margin: 0px auto 0;
+	border-radius: 0px;
+  }
+  
+  .form-control{
+	width: 300px;
+	height: 35px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: #fff;
+  }
+  
+  alert{
+	width: 100%;
+	height: 200px;
+	-moz-text-size-adjust: 14;
+  }
+
