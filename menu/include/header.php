@@ -11,10 +11,12 @@ session_start();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <!--style.css document-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
     <!-- googlefonts CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
@@ -60,11 +62,7 @@ session_start();
             <a class="navbar-brand" href="index.php">
                 <strong><em class="ml-0 logo">MealVille</em></strong>
             </a>
-<<<<<<< HEAD
-            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navi">
-=======
             <button class="navbar-toggler  bg-white" type="button" data-toggle="collapse" data-target="#navi">
->>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navi">
@@ -100,21 +98,6 @@ session_start();
                     else {
                         echo '
                              <li class="nav-item">
-<<<<<<< HEAD
-	                 <a class="nav-link" target="_blank" href="index.php">Home</a>
-	             </li>
-                    <li class="nav-item">
-	                 <a class="nav-link"target="_blank" class="text-white font-weight-bold" href="index.php">About Us</a>
-	             </li>
-	            <li class="nav-item">
-	                <a class="nav-link" target="_blank" href="menu.php">Menu</a>
-	            </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="reservation.php">Reservation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="index.php">Contact Us</a>
-=======
 	                 <a class="nav-link" href="#home">Home</a>
 	             </li>
                     <li class="nav-item">
@@ -128,7 +111,6 @@ session_start();
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Contact Us</a>
->>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
                     </li>
                     ';
                     }
@@ -141,11 +123,7 @@ session_start();
                 if (isset($_SESSION['user_id'])) {
                     echo '
                     <form class="navbar-form navbar-right" action="includes/logout.inc.php" method="post">
-<<<<<<< HEAD
-                    <button type="submit" name="logout-submit" class="btn btn-light text-danger font-weight-bolder">Logout</button>
-=======
                     <button type="submit" name="logout-submit" class="btn btn-outline-danger">Logout</button>
->>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
                     </form>';
                 } else {
                     echo '

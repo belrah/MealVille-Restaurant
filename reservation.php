@@ -2,6 +2,7 @@
 require "header.php";
 ?>
 
+<<<<<<< HEAD
 
 <!-- end of nav bar -->
 
@@ -49,6 +50,65 @@ require "header.php";
 
                 //reservation form  
                 echo '  
+=======
+    
+    <!-- end of nav bar -->
+
+<br><br>
+<div class="container">
+    <h3 class="text-center"><br>New Reservation<br></h3>   
+    <div class="row">
+        <div class="col-md-6 offset-md-3">   
+ 
+        
+        
+        
+    
+<?php
+if(isset($_SESSION['user_id'])){
+    echo '<p class="text-white bg-dark text-center">Welcome '. $_SESSION['username'] .', Create your reservation here!</p>';
+      
+  //error handling:
+    
+    if(isset($_GET['error3'])){
+        if($_GET['error3'] == "emptyfields") {   //douleuei bazw ta errors apo ta headers.. prp na bgalw to requiered
+            echo '<h5 class="bg-danger text-center">Fill all fields, Please try again!</h5>';
+        }
+        else if($_GET['error3'] == "invalidfname") {   
+            echo '<h5 class="bg-danger text-center">Invalid First Name, Please try again!</h5>';
+        }
+        else if($_GET['error3'] == "invalidlname") {   
+            echo '<h5 class="bg-danger text-center">Invalid Last Name, Please try again!</h5>';
+        }
+        else if($_GET['error3'] == "invalidtele") {   
+            echo '<h5 class="bg-danger text-center">Invalid Telephone, Pleast try again!</h5>';
+        }
+        else if($_GET['error3'] == "invalidcomment") {   
+            echo '<h5 class="bg-danger text-center">Invalid Comment, Pleast try again!</h5>';
+        }
+        else if($_GET['error3'] == "invalidguests") {   
+            echo '<h5 class="bg-danger text-center">Invalid Guests, Pleast try again!</h5>';
+        }
+        else if($_GET['error3'] == "full") {   
+            echo '<h5 class="bg-danger text-center">Reservations are full this date and timezone, Please try again!</h5>';
+        }
+    }
+        if(isset($_GET['reservation'])) {   
+           if($_GET['reservation'] == "success"){ 
+            echo '<h5 class="bg-success text-center">Your reservation was successfull!</h5>';
+        }
+        }
+        echo'<br>';
+
+
+
+    
+
+    
+    
+     //reservation form  
+    echo '  
+>>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
         
     <div class="signup-form">
         <form action="includes/reservation.inc.php" method="post">
@@ -93,11 +153,16 @@ require "header.php";
 		<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
             </div>
             <div class="form-group">
+<<<<<<< HEAD
             <button type="submit" name="reserv-submit" class="btn btn-outline-danger btn-lg btn-block">Submit Reservation</button>
+=======
+            <button type="submit" name="reserv-submit" class="btn btn-dark btn-lg btn-block">Submit Reservation</button>
+>>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
             </div>
         </form>
         <br><br>
     </div>
+<<<<<<< HEAD
     ';
             } else {
                 echo '	<p class="text-center text-danger"><br>You are currently not logged in!<br></p>
@@ -106,6 +171,19 @@ require "header.php";
             ?>
 
 
+=======
+    ';  
+    }
+
+    else {
+        echo '	<p class="text-center text-danger"><br>You are currently not logged in!<br></p>
+       <p class="text-center">In order to make a reservation you have to create an account!<br><br><p>';  
+        
+    }
+    ?>
+
+             
+>>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
         </div>
     </div>
 </div>
