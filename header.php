@@ -96,10 +96,10 @@ session_start();
                     else {
                         echo '
                              <li class="nav-item">
-	                 <a class="nav-link" target="_blank" href="index.php">Home</a>
+	                 <a class="nav-link" target="_blank" href="#home">Home</a>
 	             </li>
                     <li class="nav-item">
-	                 <a class="nav-link"target="_blank" class="text-white font-weight-bold" href="index.php">About Us</a>
+	                 <a class="nav-link"target="_blank" class="text-white font-weight-bold" href="#aboutus">About Us</a>
 	             </li>
 	            <li class="nav-item">
 	                <a class="nav-link" target="_blank" href="menu.php">Menu</a>
@@ -108,7 +108,7 @@ session_start();
                         <a class="nav-link" target="_blank" href="reservation.php">Reservation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="index.php">Contact Us</a>
+                        <a class="nav-link" target="_blank" href="#footer">Contact Us</a>
                     </li>
                     ';
                     }
