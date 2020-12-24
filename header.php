@@ -60,11 +60,7 @@ session_start();
             <a class="navbar-brand" href="index.php">
                 <strong><em class="ml-0 logo">MealVille</em></strong>
             </a>
-<<<<<<< HEAD
             <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navi">
-=======
-            <button class="navbar-toggler  bg-white" type="button" data-toggle="collapse" data-target="#navi">
->>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navi">
@@ -100,7 +96,6 @@ session_start();
                     else {
                         echo '
                              <li class="nav-item">
-<<<<<<< HEAD
 	                 <a class="nav-link" target="_blank" href="index.php">Home</a>
 	             </li>
                     <li class="nav-item">
@@ -114,21 +109,6 @@ session_start();
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="index.php">Contact Us</a>
-=======
-	                 <a class="nav-link" href="#home">Home</a>
-	             </li>
-                    <li class="nav-item">
-	                 <a class="nav-link" class="text-white font-weight-bold" href="#aboutus">About Us</a>
-	             </li>
-	            <li class="nav-item">
-	                <a class="nav-link" href="#menu">Menu</a>
-	            </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#reservation">Reservation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contact Us</a>
->>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
                     </li>
                     ';
                     }
@@ -141,11 +121,7 @@ session_start();
                 if (isset($_SESSION['user_id'])) {
                     echo '
                     <form class="navbar-form navbar-right" action="includes/logout.inc.php" method="post">
-<<<<<<< HEAD
                     <button type="submit" name="logout-submit" class="btn btn-light text-danger font-weight-bolder">Logout</button>
-=======
-                    <button type="submit" name="logout-submit" class="btn btn-outline-danger">Logout</button>
->>>>>>> 1a7d5cad2aeab531fbacea3f8b2be7e04ae67169
                     </form>';
                 } else {
                     echo '
