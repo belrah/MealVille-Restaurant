@@ -18,12 +18,11 @@ require "header.php";
 
 <!--about us section-->
 <section id="aboutus">
-
-    <div class="container">
-        <h3 class="text-center"><br>MealVille</h3>
+    <div class="container mt-3 mb-3">
+        <h3 class="text-center">MealVille</h3>
         <div class="row">
             <!--carousel-->
-            <div class="col-sm"><br><br>
+            <div class="col-sm">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -64,7 +63,7 @@ require "header.php";
             <!--end of carousel-->
 
             <div class="col-sm">
-                <div class="arranging mt-5"><br>
+                <div class="arranging">
                     <h1 class="text-center text-danger font-weight-bolder">About Meanville</h1>
                     <p>The story of MealVille is that that started out of love for family and passion. Our founder saw
                         the need to brigde the gaps of relationship between families due to increased work time of Parents and the inability to get home cooked food at anytime.
@@ -83,8 +82,8 @@ require "header.php";
 </div>
 
 <!----gallery -->
-<div class="text-center">
-    <h2 class="text-center">Our Menu</h2>
+<div class="text-center mt-3 mb-3">
+    <h3 class="text-center">Our Menu</h3>
 </div>
 <div class="container">
     <div class="card-deck">
@@ -120,8 +119,8 @@ require "header.php";
 
 <!----end of gallery -->
 
-<div class="container" id="reservation">
-    <h3 class="text-center"><br><br>Reservation<br><br></h3>
+<div class="container mt-3 mb-3" id="reservation">
+    <h3 class="text-center">Reservation</h3>
     <img src="img/16.jpg" class="img-fluid rounded">
     <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-danger btn-block btn-lg mt-2 font-weight-bolder">Make a reservation Now!</button>
 </div><br><br>
@@ -130,10 +129,10 @@ require "header.php";
 </div>
 
 <!-- team section-->
-<div class="container">
-    <h3 class="text-center"> The Team</h3>
+<div class="container mt-3 mb-3">
+    <h3 class="text-center">Meet The Team</h3>
     <div class="row">
-        <div class="col-sm-3">
+        <!-- <div class="col-sm-3">
             <button type="button" onclick="" class="btn btn-outline-danger btn-block btn-lg"><img src="img/belrah.jpg" alt="pics" class="img-fluid rounded" height="200px"></button><br>
             <h5 class="text-center text-danger font-weight-bold"><i><b>Mercy KALU</b></i></h5>
         </div>
@@ -144,13 +143,50 @@ require "header.php";
         </div>
 
         <div class="col-sm-3">
-            <button type="button" onclick="" class="btn btn-outline-danger btn-block btn-lg"><img src="img/belrah.jpg" alt="picturs" class="img-fluid rounded" height="400px"></button><br>
+            <button type="button" onclick="" class="btn btn-outline-danger btn-block btn-lg"><img src="img/monica.jpg" alt="picturs" class="img-fluid rounded" height="400px"></button><br>
             <h5 class="text-center text-danger font-weight-bold"><i><b>MONICA AKPANG</b></i></h5>
         </div>
 
         <div class="col-sm-3">
-            <button type="button" onclick="" class="btn btn-outline-danger btn-block btn-lg"><img src="img/belrah.jpg" alt="picture" class="img-fluid rounded" height="400px"></button><br>
+            <button type="button" onclick="" class="btn btn-outline-danger btn-block btn-lg"></button><br>
             <h5 class="text-center text-danger font-weight-bold"><i><b>ABISOLA ADENIJI</b></i></h5>
+        </div> -->
+
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <a href="http://github.com/belrah">
+                        <img src="img/belrah.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="text-center text-danger font-weight-bold"><i><b>Mercy KALU</b></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="img/Dami.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="text-center text-danger font-weight-bold"><i><b>DAMILOLA OGUNGBENRO</b></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="img/monica.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="text-center text-danger font-weight-bold"><i><b>MONICA AKPANG</b></i></h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="">
+                        <img src="img/abisola.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="text-center text-danger font-weight-bold"><i><b>ABISOLA ADENIJI</b></i></h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <!-- <div class="col-sm-3">
@@ -172,15 +208,13 @@ require "header.php";
 </div>
 
 <!-- main page map section-->
-<div class="container">
-    <h3 class="text-center">Reach out to Us!!!</h3><br>
+<div class="container mt-3 mb-3"><br>
+    <h3 class="text-center mb-3">Reach out to Us!!!</h3>
     <div class="row">
-
 
         <div class="col-sm-4">
             <?php
             $name = $email = $message = "";
-
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $name = test_input($_POST["name"]);
                 $email = test_input($_POST["email"]);
@@ -235,7 +269,7 @@ require "header.php";
 
 
 
-<div class="container"><br>
+<div class="container">
     <h4><strong>Opening Hours</strong></h4>
     <div class="signup-form">
         <form action="#footer" method="post">
@@ -249,7 +283,7 @@ require "header.php";
         </form>
     </div>
 </div>
-</section>
+
 <!--end of main page map section-->
 
 
