@@ -48,7 +48,7 @@ session_start();
         color: #fff !important;
         font-size: 25px;
         font-weight: bold;
-        border-bottom: 3px solid transparent;
+  
     }
 
     .nav-link:hover {
