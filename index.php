@@ -172,7 +172,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/monica.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Monica.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>MONICA AKPANG</b></i></h5>
                         </div>
@@ -180,7 +180,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/abisola.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Abisola.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>ABISOLA ADENIJI</b></i></h5>
                         </div>
