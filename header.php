@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 ?>
@@ -41,23 +40,25 @@ session_start();
     }
 
     .nav-link {
-        color: #fff !important;
+        /* color: #fff !important;
         font-size: 23px;
         font-weight: bold;
         text-decoration: none;
+        border-bottom: 3px solid transparent; */
+        color: #fff !important;
+        font-size: 25px;
+        font-weight: bold;
         border-bottom: 3px solid transparent;
     }
 
     .nav-link:hover {
-        /* background-color: #fff;
-        color: #990011FF !important; */
         border-bottom: 3px solid #ffff00;
-        color: yellow;
+
     }
 
     #active {
         border-bottom: 3px solid #ffff00;
-        color: yellow;
+
     }
 </style>
 <?php
