@@ -18,24 +18,12 @@ require "header.php";
             <h2 class=" font-weight-bolder text-white">Welcome To MealVille Restaurant</h2>
             <p class="text-white font-weight-bold">Home of Finger-licking Meals</p>
         </div>
-        <div class="col-md-12 text-center">
-            <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg"><em>Make a Reservation Now!</em></button>
+        <div class="col-md-12 text-center mt-5">
+            <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bold"><em>Make a Reservation Now!</em></button>
         </div>
     </div>
 </header>
 
-<!-- <header class="header">
-    <div class="row">
-
-        <div class="col-md-12 hero-text text-center">
-            <h2 class="text-center font-weight-bolder text-white">Welcome To MealVille Restaurant</h2>
-            <p class="text-white text-white font-weight-bold">Home of Finger-licking Meals</p>
-        </div>
-        <div class="col-md-12 text-center mt-5">
-            <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-danger btn-lg font-weight-bolder"><em>Make a Reservation Now!</em></button>
-        </div>
-    </div>
-</header> -->
 
 
 

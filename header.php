@@ -60,62 +60,7 @@ session_start();
         color: yellow;
     }
 </style>
-<?php
-session_start();
-?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <!--favicon-->
-    <title>MealVille-Restaurant</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-    <!--style.css document-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
-    <!-- googlefonts CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--googleapis jquery-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <!--font-awesome-->
-
-</head>
-<style>
-    .flex-column {
-        max-width: 260px;
-    }
-
-
-
-    .img {
-        margin: 5px;
-    }
-
-    .logo {
-        font-size: 35px;
-        color: #fff;
-        font-family: 'Langar', cursive;
-    }
-
-    .nav-link {
-        color: #fff !important;
-        font-size: 25px;
-        font-weight: bold;
-    }
-
-    .nav-link:hover {
-        background-color: #fff;
-        color: #990011FF !important;
-    }
-</style>
 
 <body>
     <!---navbar--->
