@@ -54,7 +54,8 @@ session_start();
         color: yellow;
     }
 
-    a.active {
+    #active{
+
         border-bottom: 3px solid #ffff00;
         color: yellow;
     }
@@ -103,7 +104,7 @@ session_start();
                     else {
                         echo '
                              <li class="nav-item">
-	                 <a class="nav-link active" target="_blank" href="index.php">Home</a>
+	                 <a class="nav-link" id="active"target="_blank" href="index.php">Home</a>
 	             </li>
                     <li class="nav-item">
 	                 <a class="nav-link" target="_blank" class="text-white font-weight-bold" href="index.php">About Us</a>
