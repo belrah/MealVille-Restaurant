@@ -2,17 +2,24 @@
 require "header.php";
 ?>
 
-<header class="header">
+<!-- <header class="header">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
                 <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
                 <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
             </div>
-<!-- 
-            <div class="col-md-12 text-center">
-                <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
-            </div> -->
+        </div>
+    </div>
+</header> -->
+
+<header class="header">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <a class="logo"><img src="img/logo1.png" alt="logo"></a>
+        </div>
+        <div class="col-md-12 text-center">
+            <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg"><em>Make a Reservation Now!</em></button>
         </div>
     </div>
 </header>
@@ -161,7 +168,7 @@ require "header.php";
                     <a href="http://github.com/belrah">
                         <img src="img/belrah.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
                         <div class="card-body">
-                            <h5 class="text-center text-danger font-weight-bold"><i><b>Mercy KALU</b></i></h5>
+                            <h5 class="text-center text-danger font-weight-bold"><i><b>MERCY KALU</b></i></h5>
                         </div>
                     </a>
                 </div>

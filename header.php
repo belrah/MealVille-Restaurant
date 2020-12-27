@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 ?>
@@ -54,9 +55,65 @@ session_start();
         color: yellow;
     }
 
-    #active{
+    #active {
         border-bottom: 3px solid #ffff00;
         color: yellow;
+    }
+</style>
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <!--favicon-->
+    <title>MealVille-Restaurant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!--style.css document-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <!-- googlefonts CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--googleapis jquery-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--font-awesome-->
+
+</head>
+<style>
+    .flex-column {
+        max-width: 260px;
+    }
+
+
+
+    .img {
+        margin: 5px;
+    }
+
+    .logo {
+        font-size: 35px;
+        color: #fff;
+        font-family: 'Langar', cursive;
+    }
+
+    .nav-link {
+        color: #fff !important;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .nav-link:hover {
+        background-color: #fff;
+        color: #990011FF !important;
     }
 </style>
 
@@ -67,7 +124,7 @@ session_start();
             <a class="navbar-brand" href="index.php">
                 <strong><em class="ml-0 logo">MealVille</em></strong>
             </a>
-            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navi">
+            <button class="navbar-toggler  bg-white" type="button" data-toggle="collapse" data-target="#navi">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navi">
@@ -103,19 +160,19 @@ session_start();
                     else {
                         echo '
                              <li class="nav-item">
-	                 <a class="nav-link" id="active"target="_blank" href="index.php">Home</a>
+	                 <a class="nav-link" href="#home">Home</a>
 	             </li>
                     <li class="nav-item">
-	                 <a class="nav-link" target="_blank" class="text-white font-weight-bold" href="index.php">About Us</a>
+	                 <a class="nav-link" class="text-white font-weight-bold" href="#aboutus">About Us</a>
 	             </li>
 	            <li class="nav-item">
-	                <a class="nav-link" target="_blank" href="menu.php">Menu</a>
+	                <a class="nav-link" href="#menu">Menu</a>
 	            </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="reservation.php">Reservation</a>
+                        <a class="nav-link"  href="#reservation">Reservation</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="index.php">Contact Us</a>
+                        <a class="nav-link" href="#footer">Contact Us</a>
                     </li>
                     ';
                     }
@@ -128,7 +185,7 @@ session_start();
                 if (isset($_SESSION['user_id'])) {
                     echo '
                     <form class="navbar-form navbar-right" action="includes/logout.inc.php" method="post">
-                    <button type="submit" name="logout-submit" class="btn btn-light text-danger font-weight-bolder">Logout</button>
+                    <button type="submit" name="logout-submit" class="btn btn-outline-danger">Logout</button>
                     </form>';
                 } else {
                     echo '
