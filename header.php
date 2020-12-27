@@ -41,7 +41,7 @@ session_start();
     }
 
     .nav-link {
-        color: #fff !important;
+        /* color: #fff !important; */
         font-size: 23px;
         font-weight: bold;
         text-decoration: none;
