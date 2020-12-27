@@ -15,7 +15,8 @@ require "header.php";
 <header class="header">
     <div class="row">
         <div class="col-md-12 text-center">
-            <a class="logo"><img src="img/logo1.png" alt="logo"></a>
+            <h2 class=" font-weight-bolder text-white">Welcome To MealVille Restaurant</h2>
+            <p class="text-white font-weight-bold">Home of Finger-licking Meals</p>
         </div>
         <div class="col-md-12 text-center">
             <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg"><em>Make a Reservation Now!</em></button>
