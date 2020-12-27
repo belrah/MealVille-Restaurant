@@ -18,11 +18,11 @@ require "header.php";
         <!-- <div class="col-md-12 text-center">
             <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
         </div> -->
-        <div>
+        <div class=" mt-5">
             <h1 class="text-center font-weigth-bold text-white">Welcome To MealVill Restaurant</h1>
             <p class="text-white text-center">Home of Finger-licking Meals</p>
         </div>
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center mt-5">
             <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg"><em>Make a Reservation Now!</em></button>
         </div>
     </div>
