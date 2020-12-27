@@ -28,6 +28,7 @@ session_start();
     .flex-column {
         max-width: 260px;
     }
+
     .img {
         margin: 5px;
     }
@@ -40,14 +41,16 @@ session_start();
 
     .nav-link {
         color: #fff !important;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: bold;
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
     }
 
     .nav-link:hover {
         /* background-color: #fff;
         color: #990011FF !important; */
-        border-bottom: underline;
+        border-bottom: 3px solid #ffff00;
         color: yellow;
     }
 </style>
@@ -95,10 +98,10 @@ session_start();
                     else {
                         echo '
                              <li class="nav-item">
-	                 <a class="nav-link" target="_blank" href="index.php">Home</a>
+	                 <a class="nav-link active" target="_blank" href="index.php">Home</a>
 	             </li>
                     <li class="nav-item">
-	                 <a class="nav-link"target="_blank" class="text-white font-weight-bold" href="index.php">About Us</a>
+	                 <a class="nav-link" target="_blank" class="text-white font-weight-bold" href="index.php">About Us</a>
 	             </li>
 	            <li class="nav-item">
 	                <a class="nav-link" target="_blank" href="menu.php">Menu</a>
