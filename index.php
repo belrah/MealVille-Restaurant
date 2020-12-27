@@ -14,7 +14,7 @@ require "header.php";
 </header> -->
 <header class="header">
     <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 hero-text text-center">
             <h2 class=" font-weight-bolder text-white">Welcome To MealVille Restaurant</h2>
             <p class="text-white font-weight-bold">Home of Finger-licking Meals</p>
         </div>
