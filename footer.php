@@ -1,6 +1,3 @@
-
-
-
 <!-------footer section starts here -->
 <footer class=" pt-4 container-fluid text-white" style="background-color: #990011FF">
   <div class="text-center ">
@@ -13,7 +10,7 @@
       </div>
       <div class="col-md-2 mx-auto">
         <h6 class="text-uppercase font-weight-bold text-white">SERVICES</h6>
-        <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px; background-color: #00203FFF;  ">
+        <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px; background-color: #ffff00">
         <ul class="list-unstyled ">
           <li class="my-2">
             <a href="shop.html" class="text-white ">Indoor Eatery</a>
@@ -28,7 +25,7 @@
       </div>
       <div class="col-md-2 mx-auto  text-white">
         <h6 class="text-uppercase font-weight-bold ">QUICK LINKS</h6>
-        <hr class="mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px;background-color: #00203FFF; ">
+        <hr class="mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px;background-color: #ffff00">
         <ul class="list-unstyled ">
           <li class="my-2"><a href="index.html " class="text-white ">Home</a></li>
           <li class="my-2"><a href="#about " class="text-white ">About</a></li>
@@ -39,7 +36,7 @@
       </div>
       <div class="col-md-3 mx-auto ">
         <h6 class="text-uppercase font-weight-bold text-white">CONTACTS</h6>
-        <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px; background-color: #00203FFF;">
+        <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px; background-color: #ffff00;">
         <ul class="list-unstyled ">
           <li class="my-2 ">
             <a href="#contact">
