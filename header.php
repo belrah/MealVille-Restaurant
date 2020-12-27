@@ -28,9 +28,6 @@ session_start();
     .flex-column {
         max-width: 260px;
     }
-
-
-
     .img {
         margin: 5px;
     }
@@ -48,8 +45,10 @@ session_start();
     }
 
     .nav-link:hover {
-        background-color: #fff;
-        color: #990011FF !important;
+        /* background-color: #fff;
+        color: #990011FF !important; */
+        border-bottom: underline;
+        color: yellow;
     }
 </style>
 
