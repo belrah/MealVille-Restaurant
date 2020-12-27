@@ -16,7 +16,7 @@ require "header.php";
 <header class="header">
     <div class="row">
         <div class="col-md-12 text-center">
-            <a class="logo"><img src="img/logo1.png" alt="logo"></a>
+            <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
         </div>
         <div class="col-md-12 text-center">
             <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg"><em>Make a Reservation Now!</em></button>
@@ -166,7 +166,7 @@ require "header.php";
             <div class="card-deck">
                 <div class="card">
                     <a href="http://github.com/belrah">
-                        <img src="img/belrah.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/belrah.jpg" width="100px" height="250px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>MERCY KALU</b></i></h5>
                         </div>
@@ -174,7 +174,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/Dami.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Dami.jpg" width="100px" height="250px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>DAMILOLA OGUNGBENRO</b></i></h5>
                         </div>
@@ -182,7 +182,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/Monica.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Monica.jpg" width="100px" height="250px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>MONICA AKPANG</b></i></h5>
                         </div>
@@ -190,7 +190,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/Abisola.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Abisola.jpg" width="100px" height="250px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>ABISOLA ADENIJI</b></i></h5>
                         </div>
