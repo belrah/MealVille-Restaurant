@@ -53,6 +53,11 @@ session_start();
         border-bottom: 3px solid #ffff00;
         color: yellow;
     }
+
+    a.active {
+        border-bottom: 3px solid #ffff00;
+        color: yellow;
+    }
 </style>
 
 <body>
