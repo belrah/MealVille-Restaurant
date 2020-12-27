@@ -6,6 +6,6 @@
         "symfony/twig-bridge": "^3"
     },
     "require-dev": {
-        "heroku/heroku-buildpack-php": "*"
+        "https://mealville-restaurant.herokuapp.com/": "*"
     }
 }
