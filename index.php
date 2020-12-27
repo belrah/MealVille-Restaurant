@@ -6,8 +6,8 @@ require "header.php";
     <div class="row">
         <div class="col-md-12 text-center">
             <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
-            <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
         </div>
+        <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
         <!-- <div class="col-md-12 text-center">
             <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
         </div> -->
