@@ -55,7 +55,6 @@ session_start();
     }
 
     #active{
-
         border-bottom: 3px solid #ffff00;
         color: yellow;
     }

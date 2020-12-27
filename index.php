@@ -3,12 +3,15 @@ require "header.php";
 ?>
 
 <header class="header">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
-        </div>
-        <div class="col-md-12 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
+            </div>
             <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
+            <!-- <div class="col-md-12 text-center">
+                <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
+            </div> -->
         </div>
     </div>
 </header>
