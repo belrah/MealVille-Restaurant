@@ -6,7 +6,7 @@
         <a class="navbar-brand" href="index.php">
           <strong><em class="ml-0 logo">MealVille</em></strong>
         </a>
-        <p class="mt-2 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus est, urna egestas viverra pellentesque a aenean nisi gravida. Sed vel at sed leo volutpat elit. </p>
+        <p class="mt-2 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus est, urna egestas viverra pellentesque a aenean nisi gravida. Sed vel at sed leo volutpat . </p>
       </div>
       <div class="col-md-2 mx-auto">
         <h6 class="text-uppercase font-weight-bold text-white">SERVICES</h6>

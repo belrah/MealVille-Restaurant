@@ -67,7 +67,7 @@ session_start();
     <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: #990011FF;">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <strong><em class="ml-0 logo">MealVille</em></strong>
+                <strong><em class="ml-0 logo">MealVill</em></strong>
             </a>
             <button class="navbar-toggler  bg-white" type="button" data-toggle="collapse" data-target="#navi">
                 <span class="navbar-toggler-icon"></span>

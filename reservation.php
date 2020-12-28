@@ -7,7 +7,7 @@ require "header.php";
 
 
 <div class="container mt-5">
-    <h3 class="text-center">New Reservation</h3>
+    <h3 class="text-center">Ne Reservation</h3>
     <div class="row">
         <div class="col-md-6 offset-md-3">
 

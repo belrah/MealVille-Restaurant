@@ -4,7 +4,7 @@ require "header.php";
 
 <br><br>
 <div class="container mt-5">
-    <h3 class="text-center"><br>View Reservations<br></h3>
+    <h3 class="text-center"><br>Vie Reservations<br></h3>
 
     <?php
     if (isset($_SESSION['user_id'])) {

@@ -4,7 +4,7 @@ require "header.php";
 
 <br><br>
 <div class="container">
-    <h3 class="text-center"><br>Edit Tables<br></h3>
+    <h3 class="text-center"><br>Edit Table<br></h3>
     <div class="col-md-6 offset-md-3">
 
                            
