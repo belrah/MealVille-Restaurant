@@ -23,13 +23,10 @@ require "header.php";
     </div>
 </header>
 
-
-
-
 <!--about us section-->
 <section id="aboutus">
     <div class="container mt-3 mb-3">
-        <h3 class="text-center">MealVille</h3>
+        <h3 class="text-center">MealVill</h3>
         <div class="row">
             <!--carousel-->
             <div class="col-sm">
