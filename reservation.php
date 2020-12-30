@@ -68,26 +68,7 @@ require "header.php";
             </div>
 
 
-<div>   <label for="" class="font-weight-bold">Pick a Menu</label><br>
-    <select id='testSelect1' multiple>
-		<option value=''>White Rice and Stew</option>
 
-		<option value='.'>Spaghetti Jollof</option>
-		<option value=''>Garri and Bitterleaf Soup</option>
-		<option value=''>Yam and Egg</option>
-		<option value=''>Ofada Rice with White Sauce</option>
-		<option value=''>Fufu and Affang Soup</option>
-		<option value=''>Jollof Rice</option>
-		<option value=''>Amala With Abula Soup</option>
-		<option value=''>Pounded Yam and Egusi Soup</option>
-		<option value=''>Bean and Bread with Fish</option>
-		<option value=''>Goat Meat Pepper Soup</option>
-		<option value=''>Banga and starch</option>
-		<option value=''>Catfish Peppersoup</option>
-		<option value=''>Fried Rice with Salad</option>
-		<option value=' '>Garri and Bitterleaf Soup</option>
-	</select>
-</div>
  
 
 
