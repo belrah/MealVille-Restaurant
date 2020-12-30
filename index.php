@@ -2,11 +2,7 @@
 require "header.php";
 ?>
 
-<!-- <header class="header">
     <div class="row">
-        <div class="col-md-12 text-center">
-            <a class="logo"><img src="img/mealvillelogo.png" alt="logo"></a>
-        </div>
         <div class="col-md-12 text-center">
             
             <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
@@ -28,6 +24,49 @@ require "header.php";
     </div>
 </header>
 
+<!--about us section-->
+<section id="aboutus">
+    <div class="container mt-3 mb-3">
+        <h3 class="text-center">MealVille</h3>
+        <div class="row">
+            <!--carousel-->
+            <div class="col-sm">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block" src="img/dodo.jpg" alt="First slide" width="550px" height="400px">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block " src="img/r-abacha.jpg" alt="Second slide" width="550px" height="400px">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" src="img/vegyam.jpg" alt="Third slide" width="550px" height="400px">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" src="img/drink2.jpg" alt="Fourth slide" width="550px" height="400px">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block " src="img/grilledfish.jpg" alt="Fifth slide" width="550px" height="400px">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block" src="img/noodles.jpg" alt="Sixth slide" width="550px" height="400px">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div><br><br>
+            </div>
 
 <!--about us section-->
 <section id="aboutus">
