@@ -63,15 +63,36 @@ require "header.php";
                 <small class="form-text text-muted">Last name must be 2-20 characters long</small>
             </div>   
             <div class="form-group">
-            <label>Enter Date</label>
+            <label>Enter Date of Event</label>
         	<input type="date" class="form-control" name="date" placeholder="Date" required="required">
             </div>
+
+
+        <div class="form-group">
+		<label>Pick Menu</label>
+       <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+  <label class="form-check-label" for="defaultCheck2">
+    Disabled checkbox
+  </label>
+</div>
+		</select>
+            </div>
+
+
             <div class="form-group">
 		<label>Enter Time Zone</label>
-		<select class="form-control" name="time">
-		<option>12:00 - 16:00</option>
-		<option>16:00 - 20:00</option>
-		<option>20:00 - 00:00</option>
+        <select class="form-control" name="time">
+        	<option>08:30 - 11:30</option>
+		<option>12:00 - 15:00</option>
+		<option>15:30 - 18:30</option>
+		<option>19:00 - 22:00</option>
 		</select>
             </div>
             <div class="form-group">
@@ -84,6 +105,10 @@ require "header.php";
                 <input type="telephone" class="form-control" name="tele" placeholder="Telephone" required="required">
                 <small class="form-text text-muted">Telephone must be 6-20 characters long</small>
             </div>
+            <select class="form-control">
+  <option>Means of payment</option>
+    <option>cash</option>
+</select>
             <div class="form-group">
             <label>Enter extra Comments</label>
                 <textarea class="form-control" name="comments" placeholder="Comments" rows="3"></textarea>
