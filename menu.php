@@ -19,7 +19,7 @@ mysqli_close($conn);
 <main>
     <!-- to display cards -->
     <div class="container mt-5 mb-5">
-        <h2 class="mt-5">Select from our menu</h2>
+        <!-- <h2 class="mt-5">Select from our menu</h2> -->
         <div class="card ovf-hidden">
             <div class="container">
                 <div class="row">

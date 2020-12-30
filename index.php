@@ -2,13 +2,6 @@
 require "header.php";
 ?>
 
-    <div class="row">
-        <div class="col-md-12 text-center">
-            
-            <button type="button" onclick="window.location.href='reservation.php'" class="btn btn-outline-light btn-lg font-weight-bolder text-danger"><em>Make a Reservation Now!</em></button>
-        </div>
-    </div>
-</header> -->
 
 <header class="header">
 
@@ -224,7 +217,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/monica.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Monica.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>MONICA AKPANG</b></i></h5>
                         </div>
@@ -232,7 +225,7 @@ require "header.php";
                 </div>
                 <div class="card">
                     <a href="">
-                        <img src="img/abisola.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
+                        <img src="img/Abisola.jpg" width="100px" height="200px" alt="pictures" class="card-img-top">
                         <div class="card-body">
                             <h5 class="text-center text-danger font-weight-bold"><i><b>ABISOLA ADENIJI</b></i></h5>
                         </div>
