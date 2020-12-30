@@ -23,7 +23,6 @@ mysqli_close($conn);
         <div class="card ovf-hidden">
             <div class="container">
                 <div class="row">
-
                     <?php foreach ($menu_details as $menu_item) { ?>
                         <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
                             <div class="col">
