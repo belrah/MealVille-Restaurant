@@ -68,41 +68,42 @@ require "header.php";
             </div>
 
 
-//         <div class="form-group">
-// 		<label>Pick Menu</label>
-//        <div class="form-check">
-//   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-//   <label class="form-check-label" for="defaultCheck1">
-//     Default checkbox
-//   </label>
-// </div>
-// <div class="form-check">
-//   <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-//   <label class="form-check-label" for="defaultCheck2">
-//     Disabled checkbox
-//   </label>
-// </div>
-// 		</select>
-//             </div>
+            <h1>Dropdown Checkboxes</h1>
 
-<label>Pick a Menu</label>
-<select name="ingredients[]" id="ingredients" multiple="multiple">
-    <option value="cheese">Garri and Bitterleaf Soup</option>
-    <option value="tomatoes">Yam and Egg</option>
-    <option value="mozarella">Ofada Rice with White Sauce</option>
-    <option value="mushrooms">Fufu and Affang Soup</option>
-    <option value="pepperoni">White Rice and Stew</option>
-    <option value="onions">Amala With Abula Soup</option>
-     <option value="onions">Pounded Yam and Egusi Soup</option>
-      <option value="onions">Bean and Bread</option>
-       <option value="onions">Jollof Rice</option>      
-        <option value="onions">Goat Meat Pepper Soup</option>
-         <option value="onions">Catfish Peppersoup</option>
-          <option value="onions">Banga and starch</option>
-           <option value="onions">Fried Rice with Salad</option>
-            <option value="onions">Spaghetti Jollof</option>
-      
-</select>
+<div class="dropdown" data-control="checkbox-dropdown">
+  <label class="dropdown-label">Select</label>
+  
+  <div class="dropdown-list">
+    <a href="#" data-toggle="check-all" class="dropdown-option">
+      Check All  
+    </a>
+    
+    <label class="dropdown-option">
+      <input type="checkbox" name="dropdown-group" value="Selection 1" />
+      Selection One
+    </label>
+    
+    <label class="dropdown-option">
+      <input type="checkbox" name="dropdown-group" value="Selection 2" />
+      Selection Two
+    </label>
+    
+    <label class="dropdown-option">
+      <input type="checkbox" name="dropdown-group" value="Selection 3" />
+      Selection Three
+    </label>
+    
+    <label class="dropdown-option">
+      <input type="checkbox" name="dropdown-group" value="Selection 4" />
+      Selection Four
+    </label>
+    
+    <label class="dropdown-option">
+      <input type="checkbox" name="dropdown-group" value="Selection 5" />
+      Selection Five
+    </label>      
+  </div>
+</div>
 
 
 
