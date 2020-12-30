@@ -31,7 +31,8 @@
         <a class="navbar-brand" href="index.php">
           <strong><em class="ml-0 logo">MealVille</em></strong>
         </a>
-        <p class="mt-2 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus est, urna egestas viverra pellentesque a aenean nisi gravida. Sed vel at sed leo volutpat elit. </p>
+        <p class="mt-2 text-white">MealVille offers home daily homely made food, both local and continental dishes at very affordable prices. check below to select a menu, book reservation for different occasions or reach out directly to us. </p>
+
       </div>
 
       <div class="col-md-2 mx-auto">
@@ -39,13 +40,13 @@
         <hr class="mb-2 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px; background-color: yellow;  ">
         <ul class="list-unstyled ">
           <li class="my-2">
-            <a href="shop.html" class="text-white ">Couselling</a>
+            <a href="shop.html" class="text-white ">Eatery</a>
           </li>
           <li class="my-2">
-            <a href="shop.html " class="text-white ">Legal Rep</a>
+            <a href="shop.html " class="text-white ">Delivery</a>
           </li>
           <li class="my-2">
-            <a href="shop.html" class="text-white ">Access to Justices</a>
+            <a href="shop.html" class="text-white ">Events</a>
           </li>
         </ul>
       </div>
@@ -57,8 +58,9 @@
         <ul class="list-unstyled ">
           <li class="my-2"><a href="index.html " class="text-white ">Home</a></li>
           <li class="my-2"><a href="#about " class="text-white ">About-Us</a></li>
-          <li class="my-2"><a href="#program " class="text-white ">Programmes</a></li>
-          <li class="my-2"><a href="#contact " class="text-white ">Contact-Us</a></li>
+          <li class="my-2"><a href="#menu" class="text-white ">Menu</a></li>
+          <li class="my-2"><a href="#reservation" class="text-white ">Reservation</a></li>
+          <li class="my-2"><a href="#contact" class="text-white ">Contact-Us</a></li>
         </ul>
       </div>
 
@@ -68,12 +70,12 @@
         <ul class="list-unstyled ">
           <li class="my-2 ">
             <a href="#contact">
-              <i class="fas fa-home mr-2 text-white ">Gesse Phase1 B/K, Kebbi State.</i style="color: yellow; ">
+              <i class="fas fa-home mr-2 text-white ">21 Adeniji st, S/L Lagos.</i style="color: yellow; ">
             </a>
           </li>
           <li class="my-2 ">
             <a href="#">
-              <i class="fas fa-envelope mr-2 text-white "></i> <i style="color: yellow; ">belrahj3@gmail.com</i>
+              <i class="fas fa-envelope mr-2 text-white "></i> <i style="color: yellow; ">mealville-restaurant@gmail.com</i>
             </a>
           </li>
           <li class="my-2 ">
@@ -94,7 +96,7 @@
   <div class=" text-center py-3 ">
     <div class="row d-flex justify-content-center ">
       <div id="copyright " class="text-center text-white ">
-        <p class="mb-0 " style=" color: yellow; font-size: larger; ">Created By RM1-PG-4</p>
+        <p class="mb-0 " style=" color: yellow; font-size: larger; ">Created By RM1-PG4</p>
         <small class="font-weight-bolder ">
           Copyright © MEALVILLE || All Rights Reserved.
         </small>
